@@ -1,12 +1,15 @@
 package APITesting.com.org.api;
 import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
+
+import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 import static com.jayway.restassured.RestAssured.*;
 
 
 public class api_get_request {
 
+	
 	@Test
 	public void test_01() {
 
@@ -57,18 +60,63 @@ public class api_get_request {
 		then().assertThat().statusCode(200);
 
 	}
-	
+
 	//Check the response data as json
 	@Test
 	public void test_05() {
 
 		Response response = when().
 				get("https://api.openweathermap.org/data/2.5/weather?q=London&callback=test&appid=884cb1eca4f082d98b840b41466538bc");
-		
+
 		System.out.println("The response data as json "+response.asString());
-		
+
 	}
 
+	 
+
+	//get specific data from the json file
+	@Test
+	public void test_06() {
+
+		String weatherdescription = given().
+				param("q", "London").
+				param("appid", "884cb1eca4f082d98b840b41466538bc").
+				when().
+				get("https://api.openweathermap.org/data/2.5/weather").
+				then().
+				contentType(ContentType.JSON).
+				extract().
+				path("weather[0].description");
+
+		System.out.println("The weather description of LONDON is "+ "'"+ weatherdescription+"'");
+	}
+
+	//get specific data from the json file compairing to actual result
+	@Test
+	public void test_07() {
+
+		Response response = given().
+				param("q", "London").
+				param("appid", "884cb1eca4f082d98b840b41466538bc").
+				when().
+				get("https://api.openweathermap.org/data/2.5/weather");
+
+		String actualrepost = response.
+				then().
+				contentType(ContentType.JSON).
+				extract().
+				path("weather[0].description");
+		
+		String expectedreport = "overcast clouds";
+		
+		if(actualrepost.equalsIgnoreCase(expectedreport)) {
+			System.out.println("The test is pass");
+		}else {
+			System.out.println("The test is Failed");
+		}
+
+
+	}
 
 }
 
