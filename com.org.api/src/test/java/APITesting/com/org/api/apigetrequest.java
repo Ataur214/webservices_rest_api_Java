@@ -7,7 +7,7 @@ import com.jayway.restassured.response.Response;
 import static com.jayway.restassured.RestAssured.*;
 
 
-public class api_get_request {
+public class apigetrequest {
 
 	
 	@Test
