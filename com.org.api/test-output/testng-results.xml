@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4332" started-at="2020-06-13T07:37:04Z" finished-at="2020-06-13T07:37:08Z">
+  <suite name="Default suite" duration-ms="10292" started-at="2020-06-14T03:34:12Z" finished-at="2020-06-14T03:34:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4332" started-at="2020-06-13T07:37:04Z" finished-at="2020-06-13T07:37:08Z">
+    <test name="Default test" duration-ms="10292" started-at="2020-06-14T03:34:12Z" finished-at="2020-06-14T03:34:22Z">
       <class name="APITesting.com.org.api.api_get_request">
-        <test-method status="PASS" signature="test_07()[pri:0, instance:APITesting.com.org.api.api_get_request@7dc7cbad]" name="test_07" duration-ms="4295" started-at="2020-06-13T13:37:04Z" finished-at="2020-06-13T13:37:08Z">
+        <test-method status="PASS" signature="test_01()[pri:0, instance:APITesting.com.org.api.api_get_request@7dc7cbad]" name="test_01" duration-ms="3039" started-at="2020-06-14T09:34:12Z" finished-at="2020-06-14T09:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+        <test-method status="PASS" signature="test_02()[pri:0, instance:APITesting.com.org.api.api_get_request@7dc7cbad]" name="test_02" duration-ms="1123" started-at="2020-06-14T09:34:15Z" finished-at="2020-06-14T09:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02 -->
+        <test-method status="PASS" signature="test_03()[pri:0, instance:APITesting.com.org.api.api_get_request@7dc7cbad]" name="test_03" duration-ms="1124" started-at="2020-06-14T09:34:16Z" finished-at="2020-06-14T09:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03 -->
+        <test-method status="PASS" signature="test_04()[pri:0, instance:APITesting.com.org.api.api_get_request@7dc7cbad]" name="test_04" duration-ms="1212" started-at="2020-06-14T09:34:17Z" finished-at="2020-06-14T09:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04 -->
+        <test-method status="PASS" signature="test_05()[pri:0, instance:APITesting.com.org.api.api_get_request@7dc7cbad]" name="test_05" duration-ms="1131" started-at="2020-06-14T09:34:18Z" finished-at="2020-06-14T09:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05 -->
+        <test-method status="PASS" signature="test_06()[pri:0, instance:APITesting.com.org.api.api_get_request@7dc7cbad]" name="test_06" duration-ms="1538" started-at="2020-06-14T09:34:19Z" finished-at="2020-06-14T09:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06 -->
+        <test-method status="PASS" signature="test_07()[pri:0, instance:APITesting.com.org.api.api_get_request@7dc7cbad]" name="test_07" duration-ms="1079" started-at="2020-06-14T09:34:21Z" finished-at="2020-06-14T09:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_07 -->
