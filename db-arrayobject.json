@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "information": [
+        {
+          "email": "test1@test1.com",
+          "phone": "797897897",
+          "address": "india"
+        },
+        {
+          "email": "test2@test2.com",
+          "phone": "32132131",
+          "address": "bangladesh"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "This is array title",
+      "author": "test array author",
+      "arrayobject": [
+        {
+          "email": "arraymail@arraymail.com1",
+          "phone": "11111111",
+          "address": "array address1"
+        },
+        {
+          "email": "arraymail@arraymail.com2",
+          "phone": "2222222222",
+          "address": "array address2"
+        }
+      ]
+    }
+  ]
+}

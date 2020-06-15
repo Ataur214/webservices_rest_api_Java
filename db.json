@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "10",
+      "title": "json-server_post_test",
+      "author": "Ataure"
+    },
+    {
+      "id": "03",
+      "first_name": null,
+      "title": "updated by PATCH Mr",
+      "author": null
+    },
+    {
+      "id": "05",
+      "first_name": "updated by PATCH Rahaman",
+      "title": "updated Mr",
+      "author": "updated Ata"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

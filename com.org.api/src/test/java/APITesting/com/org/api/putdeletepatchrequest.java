@@ -1,10 +1,7 @@
 package APITesting.com.org.api;
-import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
-
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
-
 import APITesting.Classes.Object.complexobjectclass;
 import APITesting.Classes.Object.complexobjectinformationclass;
 import APITesting.Classes.Object.postobject;
@@ -29,7 +26,7 @@ public class putdeletepatchrequest {
 				contentType(ContentType.JSON).
 				put("http://localhost:3000/posts/05");
 
-		System.out.println("updated response data "+ reponse.asString());			
+		System.out.println("updated response data "+ reponse.asString());		
 	}
 
 
@@ -56,7 +53,7 @@ public class putdeletepatchrequest {
 				when().
 				delete("http://localhost:3000/posts/_3cYk0W");
 
-		System.out.println("updated response data "+ reponse.asString());			
+		System.out.println("updated response data "+ reponse.asString());		
 	}
 
 
@@ -85,7 +82,7 @@ public class putdeletepatchrequest {
 				body(dataobject).
 				post("http://localhost:3000/posts");
 
-		System.out.println("updated response data "+ reponse.asString());			
+		System.out.println("updated response data "+ reponse.asString());		
 	}
 
 }

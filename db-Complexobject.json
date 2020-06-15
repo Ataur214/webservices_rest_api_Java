@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "information": {
+        "email": "test@test.com",
+        "phone": "01256798",
+        "address": "uttara-dhaka"
+      }
+    },
+    {
+      "id": "2",
+      "title": "This is title",
+      "author": "ataure",
+      "information": {
+        "email": "complex@complex.com",
+        "phone": "12300000",
+        "address": "Bangladesh"
+      }
+    }
+  ]
+}

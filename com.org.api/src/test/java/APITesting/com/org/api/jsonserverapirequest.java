@@ -1,14 +1,9 @@
 package APITesting.com.org.api;
-import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
-
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
-
 import APITesting.Classes.Object.postobject;
-
 import static com.jayway.restassured.RestAssured.*;
-
 public class jsonserverapirequest {
 
 	//Json server get request
