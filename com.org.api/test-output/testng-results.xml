@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1897" started-at="2020-06-14T17:54:07Z" finished-at="2020-06-14T17:54:09Z">
+  <suite name="Default suite" duration-ms="2468" started-at="2020-06-15T05:15:35Z" finished-at="2020-06-15T05:15:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1897" started-at="2020-06-14T17:54:07Z" finished-at="2020-06-14T17:54:09Z">
+    <test name="Default test" duration-ms="2468" started-at="2020-06-15T05:15:35Z" finished-at="2020-06-15T05:15:38Z">
       <class name="APITesting.com.org.api.putdeletepatchrequest">
-        <test-method status="PASS" signature="test_03()[pri:0, instance:APITesting.com.org.api.putdeletepatchrequest@7dc7cbad]" name="test_03" duration-ms="1868" started-at="2020-06-14T23:54:07Z" finished-at="2020-06-14T23:54:09Z">
+        <test-method status="PASS" signature="test_04()[pri:0, instance:APITesting.com.org.api.putdeletepatchrequest@7dc7cbad]" name="test_04" duration-ms="2438" started-at="2020-06-15T11:15:35Z" finished-at="2020-06-15T11:15:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_03 -->
+        </test-method> <!-- test_04 -->
       </class> <!-- APITesting.com.org.api.putdeletepatchrequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
